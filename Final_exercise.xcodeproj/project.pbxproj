@@ -22,6 +22,7 @@
 		54C367B629AC41A000E31079 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C367B529AC41A000E31079 /* UserApi.swift */; };
 		54C367B829AC656800E31079 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C367B729AC656800E31079 /* User.swift */; };
 		54C367BA29AC659E00E31079 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C367B929AC659E00E31079 /* Detail.swift */; };
+		54C367BE29AC985800E31079 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C367BD29AC985800E31079 /* UserDetailViewController.swift */; };
 		AABBCC9924629EF34D150DFE /* Pods_Final_exercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728486224836F8ACD74A3A03 /* Pods_Final_exercise.framework */; };
 		AB542F0D7DF0C2E626C56685 /* Pods_Final_exercise_Final_exerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A7C01770EA098D2749133 /* Pods_Final_exercise_Final_exerciseUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		54C367B529AC41A000E31079 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
 		54C367B729AC656800E31079 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		54C367B929AC659E00E31079 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		54C367BD29AC985800E31079 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		671A577CDA7BBC75CC0CFBCB /* Pods-Final_exerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_exerciseTests.debug.xcconfig"; path = "Target Support Files/Pods-Final_exerciseTests/Pods-Final_exerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		728486224836F8ACD74A3A03 /* Pods_Final_exercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_exercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A15CA420FF6581CEB1024D3 /* Pods-Final_exercise-Final_exerciseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_exercise-Final_exerciseUITests.release.xcconfig"; path = "Target Support Files/Pods-Final_exercise-Final_exerciseUITests/Pods-Final_exercise-Final_exerciseUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				54A802F629A7042200935E68 /* Info.plist */,
 				5483AF7529ABA6CF00B4C323 /* UserTableViewController.swift */,
 				5483AF7A29ABA8B700B4C323 /* UserTableViewCell.swift */,
+				54C367BD29AC985800E31079 /* UserDetailViewController.swift */,
 			);
 			path = Final_exercise;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 			files = (
 				54C367B629AC41A000E31079 /* UserApi.swift in Sources */,
 				54A802ED29A7042100935E68 /* ViewController.swift in Sources */,
+				54C367BE29AC985800E31079 /* UserDetailViewController.swift in Sources */,
 				54C367BA29AC659E00E31079 /* Detail.swift in Sources */,
 				5483AF7B29ABA8B700B4C323 /* UserTableViewCell.swift in Sources */,
 				54A802E929A7042100935E68 /* AppDelegate.swift in Sources */,
